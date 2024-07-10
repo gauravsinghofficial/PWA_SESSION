@@ -1,0 +1,24 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply styles to the grid container */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid with min width of 200px */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px; /* Padding around the grid */
+  }
+  
+  /* Apply styles to grid items */
+  .grid-item {
+    background-color: #eaeaea;
+    /* border: 1px solid #ccc; */
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
